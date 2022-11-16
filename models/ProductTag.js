@@ -18,7 +18,7 @@ ProductTag.init(
       references: {
         model: 'product',
         key: 'id',
-        unique: FontFaceSetLoadEvent
+        unique: false
       }
     },
     tag_id: {
