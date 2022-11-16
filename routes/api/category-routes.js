@@ -36,6 +36,7 @@ router.get('/:id', async (req, res) => {
 
     if (!categoryIdSearch) {
       res.status(404).json({ message: `No category found using inputted ID` });
+      return;
     }
 
     res.status(200).json(categoryIdSearch);
@@ -65,6 +66,7 @@ router.put('/:id', async (req, res) => {
 
     if (!updateCategory) {
       res.status(404).json({ message: `No Category found using inputted ID` });
+      return;
     }
     
     res.status(200).json(updateCategory);
@@ -84,6 +86,7 @@ router.delete('/:id', async (req, res) => {
 
     if (!deleteCategory) {
       res.status(404).json({ message: `No Category found using inputted ID` });
+      return;
     }
     
     res.status(200).json(deleteCategory);
