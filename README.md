@@ -25,9 +25,10 @@ The most difficult part of the project was to set up the routes as well as the l
 
 ## Installation
 1. You will need to first clone the repository.
-2. Use MYSQL and 'source schema.sql;' to setup the database
-3. Then 'npm run seeds' or 'node seeds/index.js' in the terminal to populate seed data
-4. Run the server with 'npm start' and use Insomnia to run the CRUDs
+2. Rename the .env.EXAMPLE file to .env and input your credentials
+3. Use MYSQL and 'source schema.sql;' to setup the database
+4. Then 'npm run seeds' or 'node seeds/index.js' in the terminal to populate seed data
+5. Run the server with 'npm start' and use Insomnia to run the CRUDs
 
 ## Usage
 The program allows for keeping stock of products and editing products, categories and tags.
